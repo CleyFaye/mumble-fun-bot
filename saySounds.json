@@ -1,0 +1,6 @@
+{
+    "say something": ["saysounds/whoa.mp3", "saysounds/cool.mp3", "saysounds/sweet.mp3"],
+    "whoa": "saysounds/whoa.mp3",
+    "cool": "saysounds/cool.mp3",
+    "sweet": "saysounds/sweet.mp3"
+}

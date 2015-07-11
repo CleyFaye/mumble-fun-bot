@@ -1,0 +1,14 @@
+{
+    "botName": "Fun-Bot",
+    "server": "127.0.0.1",
+    "port": 64738,
+    "channel": "Root",
+    "triviaDefaultTimelimit": 45,
+    "saySoundCooldown": 2,
+    "saySoundGain": 0.2,
+    "idleEasterEggs": [
+        "saysounds/anyone-there.mp3",
+        "saysounds/hello.mp3"
+    ],
+    "saySoundFuzzyMatch": false
+}
