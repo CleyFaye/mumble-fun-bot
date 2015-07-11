@@ -6,7 +6,7 @@ A mumble bot that will brighten your day with features like:
 
 # How to use
 1. This requires node.js. Get it here if you don't have it already: https://nodejs.org/
-2. Download this repository.
+2. Download this repository. [Click Here](https://github.com/kylepaulsen/mumble-fun-bot/archive/master.zip)
 3. Navigate to the folder where you put it in a terminal and run: `$ npm install`
 4. Edit the config.json file the way you want it (See details below).
 5. Edit the saySounds.json file the way you want it (See details below).
