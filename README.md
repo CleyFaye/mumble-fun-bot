@@ -24,6 +24,7 @@ Your options are:
 * saySoundGain - (number) How loud the saysounds should be transmitted. Defaults to a pleasant 0.2.
 * saySoundFuzzyMatch - (boolean) Should each message be scanned to see if any of the saysound phrases show up anywhere in the message? Defaults to false (which means a more exact match must happen).
 * idleEasterEggs - (array of strings) paths to any sounds you want to play when there is dead silence in the mumble server.
+* targetBitrate - (number) If sounds are choppy or cut out, try lowering this number. Defaults to 24000.
 
 # saySounds.json
 This file defines the "saysound phrases" that match up to one or more mp3s that will be played. Here is an example file:
