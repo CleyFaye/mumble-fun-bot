@@ -1,5 +1,3 @@
-/* jshint quotmark: true */
-
 'use strict';
 
 var mumble = require('mumble');
