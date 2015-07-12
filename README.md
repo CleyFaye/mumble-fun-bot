@@ -52,6 +52,7 @@ To give a command to the bot, type to the channel or directly to the bot. Messag
   * !answer - Make the bot give just you the answer.
   * !answer all - Make the bot give everyone the answer and end the current question timer.
 * !list - List all of the saysound phrases to just you.
+* !random - Play a random saysound.
 * !stop - Stop the current saysound playing (if any).
 * !help - Show a help message that gives info about these commands.
 

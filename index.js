@@ -25,6 +25,7 @@ try {
     config.saySoundGain = config.saySoundGain || 0.3;
     config.targetBitrate = config.targetBitrate || 24000;
     config.saySoundFuzzyMatch = config.saySoundFuzzyMatch || false;
+    config.idleEasterEggs = config.idleEasterEggs || [];
 } catch(e) {
     console.error('Could not parse config.json. Please make this file (refer to readme.md).');
     process.exit(1);
@@ -52,6 +53,9 @@ var commands = {
         var sounds = saySounds.getListOfSounds();
         client.sendChannelMessage(sounds.join('<br>'), from.actor);
     },
+    random: function(client) {
+        saySounds.playRandom(client);
+    },
     stop: function() {
         saySounds.stopSound();
     },
@@ -61,6 +65,7 @@ var commands = {
             '!trivia [keepAsking: true | false] [question time limit: int]',
             '!answer [all] (give answer to current trivia question to you or everyone)',
             '!list (list all available saysounds)',
+            '!random (play a random saysound)',
             '!stop (Stop current saysound)',
             '!help (display this message)'
         ].join('<br>'), from.actor);
