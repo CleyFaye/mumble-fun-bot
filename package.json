@@ -1,6 +1,6 @@
 {
   "name": "mumble-fun-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mumble bot that likes to have fun.",
   "main": "index.js",
   "dependencies": {
@@ -18,5 +18,5 @@
     "bot"
   ],
   "author": "Kyle Paulsen <kyle.a.paulsen@gmail.com> (http://www.kylepaulsen.com)",
-  "license": "ISC"
+  "license": "MIT"
 }
