@@ -1,6 +1,6 @@
 {
   "name": "mumble-fun-bot",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A mumble bot that likes to have fun.",
   "main": "index.js",
   "dependencies": {
