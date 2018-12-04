@@ -1,6 +1,6 @@
 {
   "name": "mumble-fun-bot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mumble bot that likes to have fun.",
   "main": "index.js",
   "dependencies": {
@@ -10,9 +10,7 @@
     "request": "^2.58.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "mumble",
     "bot"
