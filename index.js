@@ -77,7 +77,7 @@ mumble.connect('mumble://' + config.server + ':' + config.port, function(error, 
         throw new Error(error);
     }
 
-    client.authenticate(config.botName);
+    client.authenticate(config.botName, config.password);
 
     client.connection.setBitrate(config.targetBitrate);
 

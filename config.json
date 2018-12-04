@@ -2,6 +2,7 @@
     "botName": "Fun-Bot",
     "server": "127.0.0.1",
     "port": 64738,
+    password: undefined,
     "channel": "Root",
     "triviaDefaultTimelimit": 45,
     "saySoundCooldown": 2,

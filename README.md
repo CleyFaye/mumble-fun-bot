@@ -18,6 +18,7 @@ Your options are:
 * botName - (string) The username that the bot signs in with.
 * server - (string) The server hostname or IP address to connect to. ( "mumble.example.com" )
 * port - (whole number) The port of the server you are connecting to. Defaults to 64738.
+* password - (?string) The server password. Leave undefined if not needed.
 * channel - (string) The channel to move into once connected.
 * triviaDefaultTimeLimit - (number) The number of seconds until the answer is revealed.
 * saySoundCooldown - (number) The number of seconds after a saysound finishes playing until a new saysound can begin.
