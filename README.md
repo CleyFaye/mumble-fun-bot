@@ -14,6 +14,9 @@ A mumble bot that will brighten your day with features like:
 
 # config.json
 This is the mandatory config file that tells the mumble bot how to behave.
+
+A sample file is provided as `config.json.sample`.
+
 Your options are:
 * botName - (string) The username that the bot signs in with.
 * server - (string) The server hostname or IP address to connect to. ( "mumble.example.com" )
