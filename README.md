@@ -12,6 +12,20 @@ A mumble bot that will brighten your day with features like:
 5. Edit the saySounds.json file the way you want it (See details below).
 5. Run it: `$ node index.js`
 
+## Autostart as a systemd service
+A sample service file is provided in `mumble_fun_bot.service`.
+It can be used as a the basis for a system wide installation or as a user service.
+
+There are many documentation online on using user systemd services, but the general outline is:
+
+1. If not done before, enable user service lingering. As root: `loginctl enable-linger $USERNAME`
+2. Copy your service file in `~/.config/systemd/user`
+3. Reload service files by issuing `systemctl --user daemong-reload`
+4. Enable the service with `systemctl --user enable mumble_fun_bot`
+
+From this point onward, the service should start after mumble (if running on the same service).
+Make sure to read and understand the service file as you'll have to update it to accomodate your local configuration.
+
 # config.json
 This is the mandatory config file that tells the mumble bot how to behave.
 
